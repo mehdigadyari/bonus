@@ -1,0 +1,36 @@
+﻿@import url(fontiran.css);
+body {
+  font-family: IRANSans !important;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea {
+  font-family: IRANSans !important;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #afb6d055;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #afb6d0;
+}
+:root {
+  scrollbar-color: #afb6d055 !important;
+  scrollbar-width: thin !important;
+}
